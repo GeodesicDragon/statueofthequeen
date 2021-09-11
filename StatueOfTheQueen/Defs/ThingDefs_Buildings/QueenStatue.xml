@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="QueenStatueBase">
+    <defName>GD_QueenStatue</defName>
+    <label>Statue of the Queen</label>
+    <description>Bring splendour to any room with a statue of Her Majesty.</description>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Buildings/Art/QueenStatue</texPath>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <fillPercent>0.35</fillPercent>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Mass>25</Mass>
+      <Beauty>750</Beauty>
+      <WorkToMake>12000</WorkToMake>
+	  <MarketValue>7500</MarketValue>
+    </statBases>
+    <stuffCategories>
+      <li>Stony</li>
+      <li>Metallic</li>
+	  <li>Woody</li>
+    </stuffCategories>
+    <costStuffCount>750</costStuffCount>
+  </ThingDef>
+</Defs>
