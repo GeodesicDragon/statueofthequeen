@@ -3,7 +3,7 @@
   <ThingDef ParentName="QueenStatueBase">
     <defName>GD_QueenStatue</defName>
     <label>Statue of the Queen</label>
-    <description>Bring splendour to any room with a statue of Her Majesty.</description>
+    <description>Bring splendour to any room with a statue of Her Majesty.\n\nMay she rest in peace.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>Buildings/Art/QueenStatue</texPath>
@@ -14,7 +14,7 @@
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
       <Mass>25</Mass>
-      <Beauty>750</Beauty>
+      <Beauty>1000</Beauty>
       <WorkToMake>12000</WorkToMake>
 	  <MarketValue>7500</MarketValue>
     </statBases>
